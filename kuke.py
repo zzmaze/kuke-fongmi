@@ -4,6 +4,7 @@ from base.spider import Spider as BaseSpider
 
 class Spider(BaseSpider):
     def __init__(self):
+        super().__init__()
         self.site = "https://www.8886m.com"
         self.name = "酷客影院"
         self.header = {
