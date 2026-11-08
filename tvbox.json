@@ -1,0 +1,14 @@
+{
+  "sites": [
+    {
+      "key": "kuke",
+      "name": "酷客影院",
+      "type": 3,
+      "api": "./spider/kuke.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {}
+    }
+  ]
+}
